@@ -1,0 +1,23 @@
+.nav-link {
+    margin-left: 9px;
+    font-weight: 500;
+}
+
+.navbar-dark {
+    background-color: #527787;
+}
+
+.navbar-brand {
+    margin-right: 10px;
+}
+.navbar-brand img {
+    height: 25px;
+    width: 38px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.navbar-icon {
+    height: 28px;
+    margin-top: 2px;
+}

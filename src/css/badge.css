@@ -1,0 +1,18 @@
+.badge {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: .80rem;
+}
+.badge a {
+    color: white;
+}
+.badge a:hover {
+    color: white;
+}
+.badge-primary {
+    background-color: var(--medium-blue)!important;
+}
+
+.badge-secondary {
+    background-color: var(--light-blue)!important;
+}

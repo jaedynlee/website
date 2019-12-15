@@ -1,0 +1,13 @@
+.card-header {
+    background-color: #efefef;
+}
+.card-header button {
+    color: #2d302f;
+    font-weight: 600;
+}
+.card-header button:hover {
+    color: #527787;
+}
+.card-body ul {
+    margin-bottom: 0;
+}
