@@ -1,8 +1,8 @@
+My personal website, which was very fun to design and populate with reflections of my experiences.
+
 This branch contains the source code for the build in `master`.
 
-
-Tutorial creds: https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka
-
+I used [this](https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka) tutorial for hosting a React app with GitHub pages. 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -50,26 +50,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Scripts added in `package.json` allow me to deploy with the command `yarn deploy`
