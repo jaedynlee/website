@@ -20,11 +20,11 @@ function App() {
     <Router>
       <NavigationBar />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/experience" component={Experience} />
-        <Route exact path="/education" component={Education} />
-        <Route exact path="/leadership" component={Leadership} />
-        <Route exact path="/art" component={Art} />
+        <Route exact={true} path="/" component={Home} />
+        <Route exact={true} path="/experience" component={Experience} />
+        <Route exact={true} path="/education" component={Education} />
+        <Route exact={true} path="/leadership" component={Leadership} />
+        <Route exact={true} path="/art" component={Art} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

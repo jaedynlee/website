@@ -25,18 +25,18 @@ class ExperienceCard extends React.Component {
                 </Col>
                 <Col md="7">
                     {roles.map((role) => { 
-                        return <>
-                        <h5>{role.title}</h5>
-                        {role.description.map((d) => {
-                            return <p>{d}</p>;
-                        })}
-                        </>
+                        return <div key={role.title}>
+                            <h5>{role.title}</h5>
+                            {role.description.map((d) => {
+                                return <p key={d.length}>{d}</p>;
+                            })}
+                        </div>
                     })}
                     
                     {skills ? (
                         <>
                         {skills.map((skill) => {
-                            return <SkillBadge key={skill.text} text={skill.text} link={skill.link} primary={skill.primary} />;
+                            return <SkillBadge key={skill.text + company} text={skill.text} link={skill.link} primary={skill.primary} />;
                         })}         
                         </>
                     ) : (

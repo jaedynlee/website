@@ -45,7 +45,7 @@ class Art extends React.Component {
                                     key={work.title}
                                     title={work.title}
                                     media={work.media}
-                                    file={work.file}
+                                    file={"art/" + work.file}
                                 />;
                             })}
                         </div>
@@ -67,7 +67,7 @@ class Art extends React.Component {
                                     key={work.title}
                                     title={work.title}
                                     media={work.media}
-                                    file={work.file}
+                                    file={"art/" + work.file}
                                 />;
                             })}
                         </div>

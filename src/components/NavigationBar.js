@@ -17,21 +17,21 @@ class NavigationBar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-between">
                 <Nav>
-                  <Link exact to="/" className="nav-link">Home</Link>
-                  <Link exact to="/experience" className="nav-link">Experience &amp; Skills</Link>
+                  <Link to="/" className="nav-link">Home</Link>
+                  <Link to="/experience" className="nav-link">Experience &amp; Skills</Link>
                   <Link to="/education" className="nav-link">Education &amp; Projects</Link>
                   <Link to="/leadership" className="nav-link">Leadership</Link>
                 </Nav>
                 <Nav>
-                  <Nav.Link to="https://github.com/jaedynlee" target="blank">
+                  <a href="https://github.com/jaedynlee" target="blank" className="nav-link">
                     <FontAwesomeIcon icon={ faGitSquare } size="2x"></FontAwesomeIcon>
-                  </Nav.Link>
-                  <Nav.Link to="https://linkedin.com/in/jaedynlee" target="blank">
+                  </a>
+                  <a href="https://linkedin.com/in/jaedynlee" target="blank" className="nav-link">
                     <FontAwesomeIcon icon={ faLinkedin } size="2x"></FontAwesomeIcon>
-                  </Nav.Link>
-                  <Nav.Link to="../Jaedyn Lee Resume.pdf" target="blank">
+                  </a>
+                  <a href="../Jaedyn Lee Resume.pdf" target="blank" className="nav-link">
                     <FontAwesomeIcon className="navbar-icon" icon={ faFileDownload } size="2x"></FontAwesomeIcon>
-                  </Nav.Link>
+                  </a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

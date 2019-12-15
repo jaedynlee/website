@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRoute, faStreetView, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
 
@@ -52,7 +53,7 @@ class Home extends React.Component {
               <FontAwesomeIcon className="section-img mb-4" icon={faGlobeAmericas} size="3x"/>
               <h4>other passions</h4>
               <ul className="list-unstyled">
-                <li><a href="/art">Art</a>, UI &amp; UX Design</li>
+                <li><Link to="/art">Art</Link>, UI &amp; UX Design</li>
                 <li>Sustainability &amp; Greentech</li>
                 <li>Travel &amp; Exploration</li>
                 <li>Volleyball &amp; Martial Arts</li>
