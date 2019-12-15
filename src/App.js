@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
 } from "react-router-dom";
@@ -20,11 +20,11 @@ function App() {
     <Router>
       <NavigationBar />
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-        <Route exact path={process.env.PUBLIC_URL + "/experience"} component={Experience} />
-        <Route exact path={process.env.PUBLIC_URL + "/education"} component={Education} />
-        <Route exact path={process.env.PUBLIC_URL + "/leadership"} component={Leadership} />
-        <Route exact path={process.env.PUBLIC_URL + "/art"} component={Art} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/experience" component={Experience} />
+        <Route exact path="/education" component={Education} />
+        <Route exact path="/leadership" component={Leadership} />
+        <Route exact path="/art" component={Art} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

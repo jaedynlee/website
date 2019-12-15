@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGitSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 import '../css/navbar.css';
 import brandImage from '../img/brand/logo-white.png';
@@ -17,19 +17,19 @@ class NavigationBar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-between">
                 <Nav>
-                  <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/experience">Experience &amp; Skills</Nav.Link>
-                  <Nav.Link href="/education">Education &amp; Projects</Nav.Link>
-                  <Nav.Link href="/leadership">Leadership</Nav.Link>
+                  <Link exact to="/" className="nav-link">Home</Link>
+                  <Link exact to="/experience" className="nav-link">Experience &amp; Skills</Link>
+                  <Link to="/education" className="nav-link">Education &amp; Projects</Link>
+                  <Link to="/leadership" className="nav-link">Leadership</Link>
                 </Nav>
                 <Nav>
-                  <Nav.Link href="https://github.com/jaedynlee" target="blank">
+                  <Nav.Link to="https://github.com/jaedynlee" target="blank">
                     <FontAwesomeIcon icon={ faGitSquare } size="2x"></FontAwesomeIcon>
                   </Nav.Link>
-                  <Nav.Link href="https://linkedin.com/in/jaedynlee" target="blank">
+                  <Nav.Link to="https://linkedin.com/in/jaedynlee" target="blank">
                     <FontAwesomeIcon icon={ faLinkedin } size="2x"></FontAwesomeIcon>
                   </Nav.Link>
-                  <Nav.Link href="../Jaedyn Lee Resume.pdf" target="blank">
+                  <Nav.Link to="../Jaedyn Lee Resume.pdf" target="blank">
                     <FontAwesomeIcon className="navbar-icon" icon={ faFileDownload } size="2x"></FontAwesomeIcon>
                   </Nav.Link>
                 </Nav>
