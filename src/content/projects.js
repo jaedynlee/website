@@ -9,7 +9,7 @@ const projectContent =
                     "I really enjoyed this assignment because it directly concerns my field of study, as well as my concern for the environment."
                 ],
                 "link": {
-                    "url": "https://drive.google.com/open?id=1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY",
+                    "url": "https://docs.google.com/document/d/1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY/edit?usp=sharing",
                     "text": "Read the paper here."
                 }
             }

@@ -26,7 +26,7 @@ const educationContent =
                 { "text": "Programming Languages" },
                 {
                     "text": "Software Project Management",
-                    "link": "https://drive.google.com/open?id=1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY"
+                    "link": "https://docs.google.com/document/d/1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY/edit?usp=sharing"
                 },
                 {
                     "text": "Information System Design and Development",
