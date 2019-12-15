@@ -1,3 +1,10 @@
+This branch contains the source code for the build in `master`.
+
+
+Tutorial creds: https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
