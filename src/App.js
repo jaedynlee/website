@@ -4,6 +4,7 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 
 import NavigationBar from "./components/NavigationBar";
@@ -18,16 +19,18 @@ import NotFound from "./components/NotFound";
 function App() {
   return (
     <Router>
-      <NavigationBar />
-      <Switch>
-        <Route exact={true} path="/" component={Home} />
-        <Route exact={true} path="/experience" component={Experience} />
-        <Route exact={true} path="/education" component={Education} />
-        <Route exact={true} path="/leadership" component={Leadership} />
-        <Route exact={true} path="/art" component={Art} />
-        <Route component={NotFound} />
-      </Switch>
-      <Footer />
+      <ScrollToTop>
+        <NavigationBar />
+        <Switch>
+          <Route exact={true} path="/" component={Home} />
+          <Route exact={true} path="/experience" component={Experience} />
+          <Route exact={true} path="/education" component={Education} />
+          <Route exact={true} path="/leadership" component={Leadership} />
+          <Route exact={true} path="/art" component={Art} />
+          <Route component={NotFound} />
+        </Switch>
+        <Footer />
+      </ScrollToTop>
     </Router>
   );
 }

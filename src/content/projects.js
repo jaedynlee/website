@@ -62,7 +62,7 @@ const projectContent =
                     "I created 24 pieces using a variety of media from oil paints, to collage, to digital art.",
                 ],
                 "link": {
-                    "url": "/art",
+                    "url": "#/art",
                     "text": "View the portfolio here!"
                 }
             }
