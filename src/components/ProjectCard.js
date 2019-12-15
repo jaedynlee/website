@@ -26,7 +26,7 @@ class ProjectCard extends React.Component {
                         {details.bullets.map((bullet) => { 
                             return <li key={bullet}>{bullet}</li>
                             })}
-                        {details.link ? (<li><a href={details.link.url}>{details.link.text}</a></li>) : <></>}
+                        {details.link ? (<li><a href={details.link.url} target="_blank">{details.link.text}</a></li>) : <></>}
                     </ul>
                 </Card.Body>
                 </Accordion.Collapse>
