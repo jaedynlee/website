@@ -20,6 +20,7 @@ function App() {
     <Router>
       <NavigationBar />
       <Switch>
+        <Route exact path="/jaedynlee.github.io" render={() => <Redirect to="/" />} />
         <Route exact path="/" component={Home} />
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/education" component={Education} />
