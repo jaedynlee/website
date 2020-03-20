@@ -19,7 +19,7 @@ class Role extends React.Component {
                 <Button
                     variant='link'
                     size='sm'
-                    className='px-0'
+                    className='px-0 text-left'
                     onClick={() => this.setState({ open: !open })}
                     aria-controls={this.props.id}
                     aria-expanded={open}

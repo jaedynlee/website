@@ -6,7 +6,7 @@ const skillsContent =
         },
         {
             "title": "Technologies",
-            "skills": [ 'React', 'Redux', 'Angular', 'JPA', 'MySQL', 'MongoDB' ]
+            "skills": [ 'React', 'Redux', 'Angular', 'Spring', 'JPA', 'MySQL', 'MongoDB' ]
         },
         {
             "title": "Other",

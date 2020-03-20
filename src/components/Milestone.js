@@ -4,10 +4,10 @@ import Role from './Role';
 const Milestone = ({id, milestone}) => 
     <>
         <div className={id!==0 ? 'row pt-4' : 'row'}>
-            <div className='col-auto'>
+            <div className='col-sm-auto'>
                 <span className='font-weight-bold'>{milestone.company}</span> - {milestone.location}
             </div>
-            <div className='col text-right'>
+            <div className='col text-sm-right'>
                 {milestone.duration}
             </div>
         </div>

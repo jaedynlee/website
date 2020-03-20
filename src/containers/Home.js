@@ -13,7 +13,7 @@ import projects from '../content/projects'
 import treeImg from '../img/tree.jpg'
 
 const Home = () =>
-  <Container className='px-0 pb-5'>
+  <Container className='px-md-0 pb-5'>
     <Row>
       <Col md='4' className='px-md-0'>
         <div id='about' className='sticky-top'>
