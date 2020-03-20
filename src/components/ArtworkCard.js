@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import '../css/art.css';
-
 
 export default function ArtworkCard({ title, media, file }) {
   return (

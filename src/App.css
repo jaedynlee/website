@@ -1,30 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #527787;
-}
-
 body {
   color: #2d302f;
+  font-size: 0.9rem;
   
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -33,76 +11,47 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --international-orange: #b2696d;
-  --medium-blue: #527787;
-  --light-blue: #75a2b3;
-  --light-gray: #efefef;
-}
-
-.bg-dark {
-  background-color: var(--medium-blue)!important;
-  color: white;
-}
-
-.bg-med-blue {
-  background-color: var(--light-blue);
-}
-
-.bg-light {
-  background-color: var(--light-gray)!important;
-}
-
-.header-text {
-  padding-top: 4rem;
-  padding-right: 10vw;
-}
-.parallax {
-  background-image: url("./img/brand/header.png");
-
-  height: 50vh;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax-top {
-  background-position: top;
-}
-.parallax-bottom {
-  background-position: bottom;
-}
-
-.navbar-brand img {
-  width: 40px;
-  margin-left: 10px;
-}
-
-.section-img {
-  margin-bottom: 10px;
-  color: var(--international-orange);
-}
-
-.section-title {
-  text-transform: lowercase;
+  --green: #46594b;
+  --blue: #6390ad;
+  --dark-blue: #466c86;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Patua One', cursive;
-  color: var(--international-orange);
-}
-h5 {
-  font-weight: 600;
 }
 
-.container-fluid a {
-  color: var(--medium-blue);
-  text-decoration: underline;
+.btn-primary {
+  background-color: var(--blue);
+  border-color: var(--blue);
 }
-a:hover {
-  color: var(--light-blue);
+.btn-primary:hover {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+a, .btn-link {
+  color: var(--blue);
+}
+a:hover, .btn-link:hover {
+  color: var(--dark-blue);
 }
 
-.text-xl {
-  font-size: 10em;
+.btn-sm.round {
+  padding: 0.3rem 0.8rem;
+  border-radius: 5rem;
+}
+
+#about {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: -30px;
+}
+
+.card-link {
+  position: relative;
+}
+
+.section-title {
+  text-transform: lowercase;
+  padding-top: 30px;
+  color: var(--green);
 }

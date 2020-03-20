@@ -2,36 +2,15 @@ const skillsContent =
     [
         {
             "title": "Languages",
-            "skills": [
-                { "text": "Java" },
-                { "text": "Python" },
-                { "text": "HTML/CSS" },
-                { "text": "SQL", "secondary": true },
-                { "text": "JavaScript", "secondary": true },
-                { "text": "MATLAB", "secondary": true },
-            ]
+            "skills": [ 'Java', 'Python', 'JavaScript', 'HTML', 'CSS', 'SQL', 'MATLAB' ]
         },
         {
-            "title": "Software",
-            "skills": [
-                { "text": "IntelliJ" },
-                { "text": "Android Studio" },
-                { "text": "Visual Studio Code" },
-                { "text": "DataGrip", "secondary": true },
-                { "text": "Postman", "secondary": true },
-                { "text": "Adobe Photoshop", "secondary": true },
-            ]
+            "title": "Technologies",
+            "skills": [ 'React', 'Redux', 'Angular', 'JPA', 'MySQL', 'MongoDB' ]
         },
         {
             "title": "Other",
-            "skills": [
-                { "text": "GitHub" },
-                { "text": "Agile/Scrum" },
-                { "text": "JIRA" },
-                { "text": "Wordpress"},
-                { "text": "CompTIA A+ Certified"},
-                { "text": "Customer Service"},
-            ]
+            "skills": [ 'Git', 'JIRA', 'Agile/Scrum', 'CompTIA A+ Certified' ]
         }
     ]
 

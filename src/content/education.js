@@ -3,42 +3,22 @@ const educationContent =
         {
             "company": "Northeastern University",
             "location": "Boston, MA",
-            "duration": "September 2016 - Present",
+            "duration": "Sep 2016 - May 2020",
             "extra": "Expected BS 2020, MS 2021",
             "roles": [
                 {
-                    "title": "Computer Science (BS/MS), Psychology (Minor)",
+                    "title": "Bachelor of Science in Computer Science, Minor in Psychology",
                     "description": [
-                        "I love studying Computer Science! Northeastern’s curriculum emphasizes positive design habits for readable, extensible code and thorough tests. Most assignments are completed through pair programming, which has strengthened my ability to work alongside others and communicate technical ideas. The opportunity to participate in code walks and design reviews was also incredibly helpful in learning how to read and critique others’ code. After I graduate with my Bachelor’s degree in Computer Science in 2020, I plan to complete my Master’s degree with a concentration in Artificial Intelligence in 2021.",
+                        "I loved majoring in Computer Science. Northeastern’s curriculum emphasizes positive design habits for readable, extensible code and thorough tests. Most assignments are completed through pair programming, which has strengthened my ability to work alongside others and communicate technical ideas. The opportunity to participate in code walks and design reviews was also incredibly helpful in learning how to read and critique others’ code.",
                         "Humans are both the creators and users of technology, which is why I chose to study psychology in addition to computer science. I believe interactions with technology should be frictionless, and software should only make tasks easier. I look forward to applying my knowledge of psychology to create appealing, useful, and usable software.",
                     ],
                 }
             ],
-            "skills": [
-                { "text": "3.9 GPA", "primary": "true" },
-                { "text": "Honors College", "primary": "true" },
-                { "text": "Web Development" },
-                { "text": "Software Development" },
-                { "text": "Object-Oriented Design" },
-                { "text": "Algorithms" },
-                { "text": "Networks and Distributed Systems" },
-                { "text": "Computer Systems" },
-                { "text": "Programming Languages" },
-                {
-                    "text": "Software Project Management",
-                    "link": "https://docs.google.com/document/d/1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY/edit?usp=sharing"
-                },
-                {
-                    "text": "Information System Design and Development",
-                    "link": "https://sites.google.com/view/is3500-group-e"
-                },
-                          
-            ]
         },
         {
             "company": "Advanced Math & Science Academy",
             "location": "Marlborough, MA",
-            "duration": "Class of 2016",
+            "duration": "",
             "roles": [
                 {
                     "title": "High School Diploma",

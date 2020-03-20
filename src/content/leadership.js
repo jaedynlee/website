@@ -3,7 +3,7 @@ const leadershipContent =
         {
             "company": "FirstByte",
             "location": "Boston, MA",
-            "duration": "July 2017 - Present",
+            "duration": "Jul 2017 - Apr 2020",
             "extra": "teachfirstbyte.org",
             "roles": [
                 {
@@ -22,7 +22,7 @@ const leadershipContent =
         {
             "company": "Generate",
             "location": "Northeastern University",
-            "duration": "January 2019 - December 2019",
+            "duration": "Jan 2019 - Dec 2019",
             "roles": [
                 {
                     "title": "Project Lead (Fall 2019)",
@@ -47,7 +47,7 @@ const leadershipContent =
         {
             "company": "FashionSENCE",
             "location": "Boston Public Library",
-            "duration": "June 2015 - March 2016",
+            "duration": "Jun 2015 - Mar 2016",
             "roles": [
                 {
                     "title": "Co-Creator, Co-Instructor",

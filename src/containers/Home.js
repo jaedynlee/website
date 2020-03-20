@@ -1,86 +1,149 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Row, Col, Container, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRoute, faStreetView, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFileDownload, faLaptopCode, faGraduationCap, faUsers, faCode, faUserCog, faMapMarkerAlt, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+import Milestone from '../components/Milestone'
+import Project from '../components/Project';
+import milestones from '../content/milestones'
+import education from '../content/education'
+import leadership from '../content/leadership'
+import skills from '../content/skills'
+import projects from '../content/projects'
+import treeImg from '../img/tree.jpg'
 
-class Home extends React.Component {  
-    render() {
-      return (
-        <>
-        <div className="parallax parallax-top text-right pr-md-5">
-          <div className="header-text">
-            <h1>Jaedyn Lee</h1>
-            <p className="pt-2">computer science student, developer,<br></br>font enthusiast, tree hugger.</p>
+const Home = () =>
+  <Container className='px-0 pb-5'>
+    <Row>
+      <Col md='4' className='px-md-0'>
+        <div id='about' className='sticky-top'>
+          <Card className='mb-3'>
+
+            <Card.Img variant='top' src={treeImg} />
+            <Card.ImgOverlay className='text-right text-light'>
+              <h2>Jaedyn Lee</h2>
+              <p className='smaller w-md-75 w-50 float-right'>full-stack developer, font enthusiast, tree hugger</p>
+            </Card.ImgOverlay>
+
+            <Card.Body>
+
+              <div className='mb-1 text-dark'>
+                  <FontAwesomeIcon icon={ faMapMarkerAlt } />
+                  <span className='pl-2'>Boston, MA, USA</span>
+              </div>
+
+              <div className='mb-1 text-dark'>
+                  <FontAwesomeIcon icon={ faEnvelopeSquare } />
+                  <span className='pl-2'>jaedyn.e.lee@gmail.com</span>
+              </div>
+
+              <div className='mb-1'>
+                <Card.Link className='text-dark' href='https://github.com/jaedynlee' target='blank'>
+                  <FontAwesomeIcon icon={ faGithubSquare } />
+                  <span className='pl-2'>github.com/jaedynlee</span>
+                </Card.Link>
+              </div>
+
+              <div className='mb-1'>
+                <Card.Link className='text-dark' href='https://linkedin.com/in/jaedynlee' target='blank'>
+                  <FontAwesomeIcon icon={ faLinkedin } />
+                  <span className='pl-2'>linkedin.com/in/jaedynlee</span>
+                </Card.Link>
+              </div>
+
+              <div className='text-center mt-4'>
+                <Card.Link href='../Jaedyn Lee Resume.pdf' className='btn btn-primary btn-sm round' target='blank'>
+                  <FontAwesomeIcon icon={ faFileDownload } />
+                  <span className='pl-2'>Download resume</span>
+                </Card.Link>
+              </div>
+              
+            </Card.Body>
+          </Card>
+        </div>
+      </Col>
+
+      <Col md='8' className='pl-md-0 pl-md-5'>
+
+        <h4 className='section-title'>
+          <FontAwesomeIcon icon={faLaptopCode}/>
+          <span className='pl-3'>experience</span>
+          <hr></hr>
+        </h4>
+        {renderMilestones(milestones)}
+
+        <h4 className='section-title'>
+          <FontAwesomeIcon icon={faUsers}/>
+          <span className='pl-3'>leadership</span>
+          <hr></hr>
+        </h4>
+        {renderMilestones(leadership)}
+
+        <h4 className='section-title'>
+          <FontAwesomeIcon icon={faGraduationCap}/>
+          <span className='pl-3'>education</span>
+          <hr></hr>
+        </h4>
+        <Milestone milestone={education[0]} id={0} />
+        <div className='small'>
+          <div>
+            <span className='font-weight-bold'>Honors: </span>
+            3.9 GPA, Honors College
+          </div>
+          <div>
+            <span className='font-weight-bold'>Coursework: </span>
+            Web Development, Software Development, Object-Oriented Design, 
+            Algorithms, Networks and Distributed Systems, Computer Systems,
+            Programming Languages, <span> </span>
+            <a target='blank' href='https://docs.google.com/document/d/1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY/edit?usp=sharing'>
+              Software Project Management
+            </a><span>, </span> <a target='blank' href='https://sites.google.com/view/is3500-group-e'>
+              Information System Design and Development
+            </a>
           </div>
         </div>
-        <div className="container-fluid p-5">
-          <Row className="p-4 justify-content-center">
-            <Col lg="8" xl="6" className="text-center text-md-left">
-              <h4>about me</h4>
-              <p>I am a BS/MS student at Northeastern University majoring in computer science. 
-                I'm interested in full-stack software development and I want to make the world 
-                a better place with technology. <b>I am currently seeking a full-time or part-time 
-                role beginning in September 2020.</b></p>
-            </Col>
-          </Row>
-          <Row className="p-4 justify-content-center text-center">
-            <Col md="4" className="mt-3 pl-md-0">
-              <FontAwesomeIcon className="section-img mb-4" icon={faRoute} size="3x"/>
-              <h4>the journey so far</h4>
-              <ul className="list-unstyled">
-                <li>Incoming Intern at Amazon</li>
-                <li>Project Lead at Generate</li>
-                <li>Co-founder of FirstByte</li>
-                <li>2 Co-ops at Draper &amp; Toast</li>
-                <li>Black Belt in Tae Kwon-Do</li>
-              </ul>
-            </Col>
-            <Col md="4" className="mt-3">
-              <FontAwesomeIcon className="section-img mb-4" icon={faStreetView} size="3x"/>
-              <h4>where to find me</h4>
-              <ul className="list-unstyled">
-                <li>Boston, Massachusetts</li>
-                <li>
-                  jaedyn.e.lee&#64;gmail.com
-                </li>
-                <li><a href="https://linkedin.com/in/jaedynlee" target="blank">LinkedIn</a></li>
-                <li><a href="https://github.com/jaedynlee" target="blank">GitHub</a></li>
-                <li><a href="Jaedyn Lee Resume.pdf" target="blank">Resume</a></li>
-              </ul>
-            </Col>
-            <Col md="4" className="mt-3 pr-md-0">
-              <FontAwesomeIcon className="section-img mb-4" icon={faGlobeAmericas} size="3x"/>
-              <h4>other passions</h4>
-              <ul className="list-unstyled">
-                <li><Link to="/art">Art</Link>, UI &amp; UX Design</li>
-                <li>Sustainability &amp; Greentech</li>
-                <li>Travel &amp; Exploration</li>
-                <li>Volleyball &amp; Martial Arts</li>
-                <li>Boston Sports Teams</li>
-              </ul>
-            </Col>
-          </Row>
-          {/* <Row className="px-5 pt-5 mt-3 justify-content-center">
-            <Col lg="8" xl="6" className="">
-              <h4>Recommendations</h4>
-              <ul>
-                <li>Patriot Act (Netflix)</li>
-                <li>Freakonomics (by Steven Levitt and Stephen Dubner)</li>
-                <li>The Third Door (by Alex Banayan)</li>
-                <li>Algorithms to Live By (by Brian Christian and Tom Griffiths)</li>
-                <li>Factfulness (by Hans Rosling)</li>
-                <li>The Mathematical Corporation (by Josh Sullivan and Angela Zutavern)</li>
-                <li>RadioLab (Podcast)</li>
-              </ul>
-            </Col>
-          </Row> */}
+        <Milestone milestone={education[1]} id={1} />
+        <div className='small'>
+          <span className='font-weight-bold'>Activities: </span>
+          Tae Kwon Do (Black Belt), Varsity Volleyball (MVP), A Cappella
         </div>
-        <div className="parallax parallax-bottom"></div>
-        </>
-      );
-    }
-  }
+
+        <h4 className='section-title'>
+          <FontAwesomeIcon icon={faUserCog}/>
+          <span className='pl-3'>skills</span>
+          <hr></hr>
+        </h4>
+        {skills.map(s => 
+          <div key={s.title} className='pb-3'>
+            <span className='font-weight-bold'>{s.title}: </span>
+            {s.skills.join(', ')}
+          </div>
+        )}
+
+        <h4 className='section-title'>
+          <FontAwesomeIcon icon={faCode}/>
+          <span className='pl-3'>projects</span>
+          <hr></hr>
+        </h4>
+        {renderProjects(projects)}
+
+      </Col>
+    </Row>
+  </Container>
   
+const renderMilestones = milestones => {
+  let i = 0
+  return milestones.map(m => 
+    <Milestone milestone={m} id={i++} />         
+  )
+}
+
+const renderProjects = projects => {
+  let i = 0
+  return projects.map(p => 
+    <Project project={p} id={i++} />         
+  )
+}
+
 export default Home;
   

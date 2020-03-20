@@ -25,20 +25,6 @@ const projectContent =
             }
         },
         {
-            "title": "Personal Website",
-            "description": "React, JavaScript, HTML5, CSS, Bootstrap",
-            "details": {
-                "bullets": [
-                    "I started this website for fun one weekend and have been iterating on it ever since.",
-                    "It's a great excuse to spend time looking at new fonts and color palettes!"
-                ],
-                "link": {
-                    "url": "https://github.com/jaedynlee/jaedynlee.com",
-                    "text": "Here's the repo on GitHub."
-                }
-            }
-        },
-        {
             "title": "Replay Robot",
             "description": "C++, Simulink",
             "details": {
