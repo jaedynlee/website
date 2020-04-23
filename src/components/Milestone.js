@@ -7,9 +7,9 @@ const Milestone = ({id, milestone}) =>
             <div className='col-sm-auto'>
                 <span className='font-weight-bold'>{milestone.company}</span> - {milestone.location}
             </div>
-            <div className='col text-sm-right'>
+            <small className='col text-sm-right font-italic'>
                 {milestone.duration}
-            </div>
+            </small>
         </div>
         {renderRoles(id, milestone.roles)}
     </>

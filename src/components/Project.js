@@ -23,7 +23,9 @@ class Project extends React.Component {
                     aria-controls={this.props.id}
                     aria-expanded={open}
                 >
-                    <span className='font-weight-bold'>{this.props.project.title}</span> - {this.props.project.description}
+                    <span className='font-weight-bold'>
+                        {this.props.project.title}
+                    </span> - {this.props.project.description}
                 </Button>
                 <Collapse in={this.state.open}>
                     <div id={this.props.id}>
@@ -32,11 +34,11 @@ class Project extends React.Component {
                                 <li>{d}</li>
                             )}
                             {this.props.project.details.link && 
-                                <li>
-                                    <a href={this.props.project.details.link.url}>
-                                        {this.props.project.details.link.text}
-                                    </a>
-                                </li>
+                            <li>
+                                <a href={this.props.project.details.link.url} target='blank'>
+                                    {this.props.project.details.link.text}
+                                </a>
+                            </li>
                             }
                         </ul>
                     </div>

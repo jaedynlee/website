@@ -1,6 +1,38 @@
 const projectContent = 
     [
         {
+            "title": "Itinerary",
+            "description": "MySQL, JPA, Java, React, Redux, JavaScript, HTML, CSS",
+            "details": {
+                "bullets": [
+                    "For my Web Development final project, my coding partner and I created a trip planning webapp.",
+                    "Users who join as Travelers can create trips and collaborate on the itinerary with other Travelers.",
+                    "Suggested activities for each trip are pulled from FourSquare's Places API, based on destination." + 
+                    "Travelers can drag and drop these activities in their trip to create their preferred plan.",
+                    "Users who join as Organizations can create events available for Travelers to add to their trips.",
+                    "This course placed special emphasis on user privacy and the responsible use of user data."
+                ],
+                "link": {
+                    "url": "https://wbdv-team20-client.herokuapp.com/",
+                    "text": "View the website here!"
+                }
+            }
+        },
+        {
+            "title": "Nomix Life Sciences Website",
+            "description": "React, Redux, JavaScript, HTML, CSS, Firebase",
+            "details": {
+                "bullets": [
+                    "As a Project Lead at Generate, I led a team of developers in creating a user portal for Nomix Life Sciences, a Boston-based healthcare startup.",
+                    "Our team implemented a user-facing webapp with account creation, custom surveys, and trial enrollment functionality."
+                ],
+                "link": {
+                    "url": "https://www.nomixls.com/",
+                    "text": "View the website here!"
+                }
+            }
+        },
+        {
             "title": "Sustainability for Project Management",
             "description": "Research Paper",
             "details": {
@@ -10,8 +42,19 @@ const projectContent =
                 ],
                 "link": {
                     "url": "https://docs.google.com/document/d/1vXNKrYmwo23BwM5wD77obiHc4_FFxH5WtO88Qt_BNfY/edit?usp=sharing",
-                    "text": "Read the paper here."
+                    "text": "Read the paper here!"
                 }
+            }
+        },
+        {
+            "title": "Fancily iOS App",
+            "description": "Swift",
+            "details": {
+                "bullets": [
+                    "As a Build Studio Engineer at Generate, I worked on an app that helps users choose outfits each day, based on the day of week, weather, and learned user preferences.",
+                    "Our team developed functionality for users to create a profile, add clothing items to their virtual closet, and refresh, downvote, or accept an outfit.",
+                    "User feedback for outfits are used to train a Bayesian predictive model, which allowed us to improve suggestions over time."
+                ]
             }
         },
         {
@@ -35,7 +78,7 @@ const projectContent =
                 ],
                 "link": {
                     "url": "https://www.youtube.com/watch?v=3IcGy0mTX8Y&feature=youtu.be",
-                    "text": "Watch the project demonstration here."
+                    "text": "Watch the project demonstration here!"
                 }
             }
         },
