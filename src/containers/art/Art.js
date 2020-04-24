@@ -26,7 +26,6 @@ const Art = () => {
                     <h4 className='section-title'>
                         <FontAwesomeIcon icon={faPaintBrush}/>
                         <span className='pl-3'>art</span>
-                        <hr></hr>
                     </h4>  
                 </Col>
             </Row>
