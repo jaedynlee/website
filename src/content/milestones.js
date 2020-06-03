@@ -8,7 +8,7 @@ const milestones =
                 {
                     "title": "Software Development Engineer Intern",
                     "description": [
-                        "Incoming Summer intern in the Devices organization."
+                        "Independently planning and implementating a 12-week project for the Alexa Wakeword Engine team."
                     ],
                 },
             ],
@@ -21,7 +21,14 @@ const milestones =
                 {
                     "title": "Software Engineering Co-op",
                     "description": [
-                        "At Toast, I felt my skills and confidence grow tremendously as a software contributor and teammate. I loved being part of the Agile process and working with others to reach our team goals. As a member of the full-stack Labor, Payroll, and Cash team, I developed production features and bug fixes for the back-end server and front-end Android and web UIs. I also migrated long-running Selenium UI tests to integration, Espresso, and unit tests to reduce deploy times and modularized legacy monolithic codebase by separating view, application, and business logic layers. The project I’m most proud of is an employee guest report feature tied to over $680,000 in live annual recurring revenue.",
+                        "At Toast, I felt my skills and confidence grow tremendously as a software contributor and teammate. " + 
+                        "I loved being part of the Agile process and working with others to reach our team goals. As a member " +
+                        "of the full-stack Labor, Payroll, and Cash team, I developed production features and bug fixes for " +
+                        "the back-end server and front-end Android and web UIs.",
+                        "I also migrated long-running Selenium UI tests to integration, Espresso, and unit tests to reduce " +
+                        "deploy times and modularized legacy monolithic codebase by separating view, application, and business " +
+                        "logic layers. The project I’m most proud of is an employee guest report feature tied to over $680,000 " +
+                        "in live annual recurring revenue."
                     ],
                 }
             ],

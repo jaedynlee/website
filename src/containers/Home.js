@@ -35,18 +35,6 @@ const Home = () =>
         {renderMilestones(milestones)}
 
         <h4 className='section-title'>
-          <FontAwesomeIcon icon={faCode}/>
-          <span className='pl-3'>projects</span>
-        </h4>
-        {renderProjects(projects)}
-
-        <h4 className='section-title'>
-          <FontAwesomeIcon icon={faUsers}/>
-          <span className='pl-3'>leadership</span>
-        </h4>
-        {renderMilestones(leadership)}
-
-        <h4 className='section-title'>
           <FontAwesomeIcon icon={faGraduationCap}/>
           <span className='pl-3'>education</span>
         </h4>
@@ -54,7 +42,7 @@ const Home = () =>
         <div className='small'>
           <div>
             <span className='font-weight-bold'>Honors: </span>
-              Summa Cum Laude, Honors College, Dean's List, Clinton Global Initiative University Invitee
+              3.9 GPA (Summa Cum Laude), Honors College, Clinton Global Initiative University Invitee
           </div>
           <div>
             <span className='font-weight-bold'>Coursework: </span>
@@ -75,6 +63,12 @@ const Home = () =>
         </div>
 
         <h4 className='section-title'>
+          <FontAwesomeIcon icon={faUsers}/>
+          <span className='pl-3'>leadership</span>
+        </h4>
+        {renderMilestones(leadership)}
+
+        <h4 className='section-title'>
           <FontAwesomeIcon icon={faUserCog}/>
           <span className='pl-3'>skills</span>
         </h4>
@@ -84,6 +78,12 @@ const Home = () =>
             {s.skills.join(', ')}
           </div>
         )}
+
+        <h4 className='section-title'>
+          <FontAwesomeIcon icon={faCode}/>
+          <span className='pl-3'>projects</span>
+        </h4>
+        {renderProjects(projects)}
 
       </Col>
     </Row>

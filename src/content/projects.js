@@ -7,7 +7,7 @@ const projectContent =
                 "bullets": [
                     "For my Web Development final project, my coding partner and I created a trip planning webapp.",
                     "Users who join as Travelers can create trips and collaborate on the itinerary with other Travelers.",
-                    "Suggested activities for each trip are pulled from FourSquare's Places API, based on destination." + 
+                    "Suggested activities for each trip are pulled from FourSquare's Places API, based on destination. " + 
                     "Travelers can drag and drop these activities in their trip to create their preferred plan.",
                     "Users who join as Organizations can create events available for Travelers to add to their trips.",
                     "This course placed special emphasis on user privacy and the responsible use of user data."
@@ -78,7 +78,7 @@ const projectContent =
                 ],
                 "link": {
                     "url": "https://www.youtube.com/watch?v=3IcGy0mTX8Y&feature=youtu.be",
-                    "text": "Watch the project demonstration here!"
+                    "text": "Watch the demonstration here!"
                 }
             }
         },

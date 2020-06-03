@@ -59,6 +59,6 @@ a:hover, .btn-link:hover {
   padding-top: 30px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  color: var(--green);
+  color: var(--dark-blue);
   border-bottom: thin solid;
 }
