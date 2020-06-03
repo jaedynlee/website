@@ -11,11 +11,7 @@ const projectContent =
                     "Travelers can drag and drop these activities in their trip to create their preferred plan.",
                     "Users who join as Organizations can create events available for Travelers to add to their trips.",
                     "This course placed special emphasis on user privacy and the responsible use of user data."
-                ],
-                "link": {
-                    "url": "https://wbdv-team20-client.herokuapp.com/",
-                    "text": "View the website here!"
-                }
+                ]
             }
         },
         {
