@@ -42,7 +42,7 @@ const Home = () =>
         <div className='small'>
           <div>
             <span className='font-weight-bold'>Honors: </span>
-              3.9 GPA (Summa Cum Laude), Honors College, Clinton Global Initiative University Invitee
+              Summa Cum Laude, Honors College, Clinton Global Initiative University Invitee
           </div>
           <div>
             <span className='font-weight-bold'>Coursework: </span>

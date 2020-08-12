@@ -1,14 +1,31 @@
 const milestones = 
     [
         {
+            "company": "Indigo",
+            "location": "Boston, MA",
+            "duration": "Aug 2020 - Present",
+            "roles": [
+                {
+                    "title": "Software Engineer I",
+                    "description": [
+                        "Alongside growers and buyers, Indigo is building a system responsive to demands for high quality and sustainably produced food and fiber. Indigo develops microbial and digital technologies that improve grower profitability, environmental sustainability, and consumer health."
+                    ],
+                },
+            ],
+        },
+        {
             "company": "Amazon",
             "location": "Cambridge, MA",
             "duration": "May 2020 - Jul 2020",
             "roles": [
                 {
-                    "title": "Software Development Engineer Intern",
+                    "title": "SDE Intern",
                     "description": [
-                        "Independently planning and implementating a 12-week project for the Alexa Wakeword Engine team."
+                        "During my 12-week internship, I led the planning and engineering of a seamless traffic migration " +
+                        "between live, tier-1 cloud services for the Alexa Wakeword Team. I implemented and tested a new " +
+                        "concurrent workflow to mitigate unintentional activations of Alexa devices, ensured operational " +
+                        "excellence by load testing and creating dashboards and alarms to monitor key metrics, and wrote " +
+                        "and presented proposals for stakeholders, engineers, and research scientists across the organization."
                     ],
                 },
             ],
