@@ -8,7 +8,7 @@ const milestones =
                 {
                     "title": "Software Engineer I",
                     "description": [
-                        "Alongside growers and buyers, Indigo is building a system responsive to demands for high quality and sustainably produced food and fiber. Indigo develops microbial and digital technologies that improve grower profitability, environmental sustainability, and consumer health."
+                        "Indigo develops microbial and digital technologies that improve grower profitability, environmental sustainability, and consumer health."
                     ],
                 },
             ],
