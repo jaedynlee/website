@@ -1,5 +1,5 @@
-import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import React from 'react'
+import { Row, Col, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCode,
@@ -9,13 +9,13 @@ import {
   faUsers
 } from '@fortawesome/free-solid-svg-icons'
 import Milestone from '../components/Milestone'
-import Project from '../components/Project';
+import Project from '../components/Project'
 import milestones from '../content/milestones'
 import education from '../content/education'
 import leadership from '../content/leadership'
 import skills from '../content/skills'
 import projects from '../content/projects'
-import AboutCard from '../components/AboutCard';
+import AboutCard from '../components/AboutCard'
 
 const Home = () =>
   <Container className='px-md-0 py-5'>
@@ -92,14 +92,14 @@ const Home = () =>
 const renderMilestones = milestones => {
   let i = 0
   return milestones.map(m => 
-    <Milestone milestone={m} id={i++} />         
+    <Milestone milestone={m} id={i++} key={m.company} />         
   )
 }
 
 const renderProjects = projects => {
   let i = 0
   return projects.map(p => 
-    <Project project={p} id={i++} />         
+    <Project project={p} id={i++} key={p.title} />         
   )
 }
 

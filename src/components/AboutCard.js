@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faEnvelopeSquare,
@@ -9,7 +9,7 @@ import {
 import {
     faGithubSquare,
     faLinkedin
-} from '@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-brands-svg-icons'
 import treeImg from '../img/tree.jpg'
 
 const AboutCard = () =>
@@ -38,22 +38,22 @@ const AboutCard = () =>
 
             <div className='mb-1'>
                 <Card.Link className='text-dark' href='https://github.com/jaedynlee' target='blank'>
-                <FontAwesomeIcon icon={ faGithubSquare } />
-                <span className='pl-2'>github.com/jaedynlee</span>
+                    <FontAwesomeIcon icon={ faGithubSquare } />
+                    <span className='pl-2'>github.com/jaedynlee</span>
                 </Card.Link>
             </div>
 
             <div className='mb-1'>
                 <Card.Link className='text-dark' href='https://linkedin.com/in/jaedynlee' target='blank'>
-                <FontAwesomeIcon icon={ faLinkedin } />
-                <span className='pl-2'>linkedin.com/in/jaedynlee</span>
+                    <FontAwesomeIcon icon={ faLinkedin } />
+                    <span className='pl-2'>linkedin.com/in/jaedynlee</span>
                 </Card.Link>
             </div>
 
             <div className='text-center mt-4'>
                 <Card.Link href='../Jaedyn Lee Resume.pdf' className='btn btn-primary btn-sm round' target='blank'>
-                <FontAwesomeIcon icon={ faFileDownload } />
-                <span className='pl-2'>Download resume</span>
+                    <FontAwesomeIcon icon={ faFileDownload } />
+                    <span className='pl-2'>Download resume</span>
                 </Card.Link>
             </div>
             

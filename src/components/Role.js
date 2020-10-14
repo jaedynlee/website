@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React from 'react'
 import { Button, Collapse } from 'react-bootstrap'
 
 class Role extends React.Component {
@@ -28,7 +28,7 @@ class Role extends React.Component {
                 </Button>
                 <Collapse in={this.state.open}>
                     <div id={this.props.id}>
-                        {this.props.role.description.map(d => <p>{d}</p>)}
+                        {this.props.role.description.map(d => <p key={d}>{d}</p>)}
                     </div>
                 </Collapse>
             </div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button, Collapse } from 'react-bootstrap';
+import React from 'react'
+import { Button, Collapse } from 'react-bootstrap'
 
 class Project extends React.Component {
 	constructor(props) {
@@ -31,14 +31,14 @@ class Project extends React.Component {
                     <div id={this.props.id}>
                         <ul>
                             {this.props.project.details.bullets.map(d => 
-                                <li>{d}</li>
+                                <li key={d}>{d}</li>
                             )}
                             {this.props.project.details.link && 
-                            <li>
-                                <a href={this.props.project.details.link.url} target='blank'>
-                                    {this.props.project.details.link.text}
-                                </a>
-                            </li>
+                                <li>
+                                    <a href={this.props.project.details.link.url} target='blank'>
+                                        {this.props.project.details.link.text}
+                                    </a>
+                                </li>
                             }
                         </ul>
                     </div>

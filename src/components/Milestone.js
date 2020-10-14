@@ -1,5 +1,5 @@
-import React from 'react';
-import Role from './Role';
+import React from 'react'
+import Role from './Role'
 
 const Milestone = ({id, milestone}) => 
     <>
@@ -17,7 +17,7 @@ const Milestone = ({id, milestone}) =>
 const renderRoles = (id, roles) => {
     let i = 0
     return roles.map(role => 
-        <Role id={`${id}-${i++}`} role={role} />
+        <Role key={i} id={`${id}-${i++}`} role={role} />
     )
 }
 
