@@ -2,7 +2,7 @@ const projectContent =
     [
         {
             "title": "Itinerary",
-            "description": "MySQL, JPA, Java, React, Redux, JavaScript, HTML, CSS",
+            "description": "MySQL, JPA, Java, React, Redux",
             "details": {
                 "bullets": [
                     "For my Web Development final project, my coding partner and I created a trip planning webapp.",
@@ -16,16 +16,12 @@ const projectContent =
         },
         {
             "title": "Nomix Life Sciences Website",
-            "description": "React, Redux, JavaScript, HTML, CSS, Firebase",
+            "description": "React, Redux, Firebase",
             "details": {
                 "bullets": [
                     "As a Project Lead at Generate, I led a team of developers in creating a user portal for Nomix Life Sciences, a Boston-based healthcare startup.",
                     "Our team implemented a user-facing webapp with account creation, custom surveys, and trial enrollment functionality."
                 ],
-                "link": {
-                    "url": "https://www.nomixls.com/",
-                    "text": "View the website here!"
-                }
             }
         },
         {

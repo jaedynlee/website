@@ -2,7 +2,7 @@ const skillsContent =
     [
         {
             "title": "Languages",
-            "skills": [ 'Java', 'Python', 'JavaScript', 'Ruby', 'HTML', 'CSS', 'SQL', 'MATLAB' ]
+            "skills": [ 'Java', 'Python', 'JavaScript', 'Ruby', 'HTML', 'CSS', 'SQL' ]
         },
         {
             "title": "Technologies",

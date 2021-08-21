@@ -1,14 +1,15 @@
 const milestones = 
     [
         {
-            "company": "Indigo",
+            "company": "Indigo Ag",
             "location": "Boston, MA",
             "duration": "Aug 2020 - Present",
             "roles": [
                 {
-                    "title": "Software Engineer I",
+                    "title": "Software Engineer II",
                     "description": [
-                        "Indigo develops microbial and digital technologies that improve grower profitability, environmental sustainability, and consumer health."
+                        "Indigo develops biological and digital technologies that improve grower profitability, environmental sustainability, and consumer health.",
+                        "I am developing full-stack features to facilitate complex transactions between growers and buyers."
                     ],
                 },
             ],
