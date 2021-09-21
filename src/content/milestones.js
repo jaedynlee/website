@@ -6,10 +6,10 @@ const milestones =
             "duration": "Aug 2020 - Present",
             "roles": [
                 {
-                    "title": "Software Engineer II",
+                    "title": "Software Engineer",
                     "description": [
                         "Indigo develops biological and digital technologies that improve grower profitability, environmental sustainability, and consumer health.",
-                        "I am developing full-stack features to facilitate complex transactions between growers and buyers."
+                        "I design and implement full-stack features to facilitate complex transactions between growers and buyers."
                     ],
                 },
             ],
