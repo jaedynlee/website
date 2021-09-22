@@ -23,17 +23,29 @@ h1, h2, h3, h4 {
   background-color: var(--green);
   border-color: var(--green);
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active {
   background-color: var(--dark-green);
   border-color: var(--dark-green);
 }
-.btn-primary:focus, a:focus, .btn-link:focus {
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
   outline-color: var(--dark-green);
+  box-shadow: 0 0 0 .2rem rgba(103, 128, 99, 0.5);
 }
-a, .btn-link {
+a,
+.btn-link {
   color: var(--dark-green);
 }
-a:hover, .btn-link:hover, a:focus, .btn-link:focus {
+a:focus,
+.btn-link:focus {
+  box-shadow: 0 0 0 0
+}
+a:hover,
+.btn-link:hover,
+a:focus,
+.btn-link:focus {
   color: var(--dark-green);
 }
 
