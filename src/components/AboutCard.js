@@ -6,7 +6,7 @@ import {
     faMapMarkerAlt,
 } from '@fortawesome/free-solid-svg-icons'
 import {
-    faGithubSquare,
+    faGithub,
     faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 import treeImg from '../img/tree.jpg'
@@ -35,7 +35,7 @@ const AboutCard = ({ darkMode }) => {
 
                 <div className='mb-1'>
                     <Card.Link className={textColor} href='https://github.com/jaedynlee' target='blank'>
-                        <FontAwesomeIcon icon={ faGithubSquare } />
+                        <FontAwesomeIcon icon={ faGithub } />
                         <span className='pl-2'>github.com/jaedynlee</span>
                     </Card.Link>
                 </div>
