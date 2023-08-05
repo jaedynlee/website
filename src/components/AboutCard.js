@@ -2,7 +2,6 @@ import React from 'react'
 import { Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faEnvelopeSquare,
     // faFileDownload,
     faMapMarkerAlt,
 } from '@fortawesome/free-solid-svg-icons'
@@ -32,11 +31,6 @@ const AboutCard = ({ darkMode }) => {
                 <div className={`mb-1 ${textColor}`}>
                     <FontAwesomeIcon icon={ faMapMarkerAlt } />
                     <span className='pl-2'>Boston, MA, USA</span>
-                </div>
-
-                <div className={`mb-1 ${textColor}`}>
-                    <FontAwesomeIcon icon={ faEnvelopeSquare } />
-                    <span className='pl-2'>jaedyn.e.lee@gmail.com</span>
                 </div>
 
                 <div className='mb-1'>
