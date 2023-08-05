@@ -10,7 +10,7 @@ const projectContent =
                     "Users can create, manage, and export a shopping list.",
                 ],
                 "link": {
-                    "url": "https://github.com/jaedynlee/trader-joes-app#trader-joes-app",
+                    "url": "https://github.com/jaedynlee/trader-joes-app#trader-joes-mobile-app",
                     "text": "Watch the demo here!"
                 }
             }
