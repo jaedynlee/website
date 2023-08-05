@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faEnvelopeSquare,
-    faFileDownload,
+    // faFileDownload,
     faMapMarkerAlt,
 } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -53,17 +53,17 @@ const AboutCard = ({ darkMode }) => {
                     </Card.Link>
                 </div>
 
-                <div className='text-center mt-4'>
-                    <Card.Link 
-                        href='../Jaedyn Lee Resume.pdf' 
+                {/* <div className='text-center mt-4'>
+                    <Card.Link
+                        href='../Jaedyn Lee Resume.pdf'
                         className={`btn btn-primary btn-sm round ${darkMode ? 'btn-light text-dark' : 'btn-dark'}`}
                         target='blank'
                     >
                         <FontAwesomeIcon icon={ faFileDownload } />
                         <span className='pl-2'>Download resume</span>
                     </Card.Link>
-                </div>
-                
+                </div> */}
+
             </Card.Body>
 
         </Card>
