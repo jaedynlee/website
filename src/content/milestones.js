@@ -1,4 +1,4 @@
-const milestones = 
+const milestones =
     [
         {
             "company": "Indigo Ag",
@@ -6,12 +6,18 @@ const milestones =
             "duration": "Aug 2020 - Present",
             "roles": [
                 {
-                    "title": "Software Engineer",
+                    "title": "Senior Software Engineer",
                     "description": [
-                        "Indigo develops biological and digital technologies that improve grower profitability, environmental sustainability, and consumer health.",
-                        "I design and implement full-stack features to facilitate complex transactions between growers and buyers."
+                        "As a senior software engineer, I architected and implemented new database tables, APIs, services, external integrations, and data sync tasks to digitize a complex loan repayment monitoring process and make it faster, auditable, and more accurate. I learned to elicit clear requirements from cross-functional stakeholders and write concise and comprehensive technical design documents.",
+                        "I also helped foster a collaborative team culture by involving and guiding teammates in design discussions, providing thorough and thoughtful code reviews, pair programming, debugging, and being a sounding board for ideas.",
                     ],
                 },
+                {
+                    "title": "Software Engineer",
+                    "description": [
+                        "As a software engineer, I owned numerous core product features end-to-end, from investigation and technical design to implementation, testing, and support. I contributed to multiple greenfield projects. I designed and built integrations for DocuSign, notifications, and Salesforce, and became a subject matter expert. I refactored key components of a product so it could be offered in new business markets."
+                    ]
+                }
             ],
         },
         {
@@ -20,7 +26,7 @@ const milestones =
             "duration": "May 2020 - Jul 2020",
             "roles": [
                 {
-                    "title": "SDE Intern",
+                    "title": "Software Engineering Intern",
                     "description": [
                         "During my 12-week internship, I led the planning and engineering of a seamless traffic migration " +
                         "between live, tier-1 cloud services for the Alexa Wakeword Team. I implemented and tested a new " +
@@ -39,7 +45,7 @@ const milestones =
                 {
                     "title": "Software Engineering Co-op",
                     "description": [
-                        "At Toast, I felt my skills and confidence grow tremendously as a software contributor and teammate. " + 
+                        "At Toast, my skills and confidence grew tremendously as both a software contributor and teammate. " +
                         "I loved being part of the Agile process and working with others to reach our team goals. As a member " +
                         "of the full-stack Labor, Payroll, and Cash team, I developed production features and bug fixes for " +
                         "the back-end server and front-end Android and web UIs.",
