@@ -5,7 +5,7 @@ const projectContent =
             "description": "React Native, JavaScript",
             "details": {
                 "bullets": [
-                    "Cross-platform mobile application.",
+                    "As a personal project, I built a cross-platform mobile application by reverse-engineering the API that serves the Trader Joe's website.",
                     "Users can select their store location and browse Trader Joe's products.",
                     "Users can create, manage, and export a shopping list.",
                 ],
