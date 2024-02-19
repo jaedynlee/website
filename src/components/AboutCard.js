@@ -30,7 +30,7 @@ const AboutCard = ({ darkMode }) => {
 
                 <div className={`mb-1 ${textColor}`}>
                     <FontAwesomeIcon icon={ faMapMarkerAlt } />
-                    <span className='pl-2'>Boston, MA, USA</span>
+                    <span className='pl-2'>Arlington, VA, USA</span>
                 </div>
 
                 <div className='mb-1'>
