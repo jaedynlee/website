@@ -1,4 +1,6 @@
 
+import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Button, Collapse } from 'react-bootstrap'
 
@@ -17,13 +19,19 @@ class Role extends React.Component {
 		return (
 			<div>
                 <Button
-                    variant='link'
-                    size='sm'
-                    className='px-0 text-left'
-                    onClick={() => this.setState({ open: !open })}
                     aria-controls={this.props.id}
                     aria-expanded={open}
+                    className='px-0 text-left'
+                    onClick={() => this.setState({ open: !open })}
+                    size='sm'
+                    variant='link'
                 >
+                    <FontAwesomeIcon
+                        className='pr-2'
+                        icon={open ? faChevronDown : faChevronRight}
+                        size="sm"
+                        width={10}
+                    />
                     {this.props.role.title}
                 </Button>
                 <Collapse in={this.state.open}>
