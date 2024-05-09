@@ -3,7 +3,7 @@ const milestones =
         {
             "company": "Indigo Ag",
             "location": "Boston, MA",
-            "duration": "Aug 2020 - Present",
+            "duration": "Aug 2020 - May 2024",
             "roles": [
                 {
                     "title": "Senior Software Engineer",
