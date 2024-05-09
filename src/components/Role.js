@@ -9,7 +9,7 @@ class Role extends React.Component {
 		super(props)
 
 		this.state = {
-			open: false,
+			open: props.isOpen,
 		}
 	}
 
